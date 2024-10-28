@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "arb-conn"
+version = "0.1.0"
+description = "practica en clase de conexion a solidity"
+authors = ["Adrian Linares <jalinaresm@ut.edu.co>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+web3 = "^7.4.0"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
